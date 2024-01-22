@@ -16,7 +16,7 @@ function Page() {
         </div>
         <img
           src="/images/circuit.avif"
-          alt="Solar Background"
+          alt="circuit"
           className=" object-cover w-full h-[350px] "
         />
         <div className="absolute inset-x-0 top-40 flex flex-col justify-center items-center text-4xl font-extrabold mb-4 text-white">
@@ -37,6 +37,7 @@ function Page() {
             <div className="flex flex-row">
               <img
                 src="/Images/building.jpg"
+                alt="Building"
                 className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
               />
               <div className="flex flex-col p-8 justify-center border-l-2 ">
@@ -77,6 +78,7 @@ function Page() {
             <div className="flex flex-row">
               <img
                 src="/Images/power10.jpg"
+                alt="power10"
                 className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
               />
               <div className="flex flex-col p-8 justify-center border-l-2 ">

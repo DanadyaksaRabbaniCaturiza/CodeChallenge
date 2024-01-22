@@ -17,7 +17,11 @@ function Page() {
 
         <div>
           {/* Image */}
-          <img src="/images/solar9.avif" className="object-top relative" />
+          <img
+            src="/images/solar9.avif"
+            alt="798"
+            className="object-top relative"
+          />
           <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
 
           <div className="absolute inset-0 flex items-center justify-center text-white text-center">
@@ -125,16 +129,15 @@ function Page() {
                 <div className="flex flex-row border-2 shadow-2xl rounded-lg bg-white">
                   <img
                     src="/images/solar8.jpg"
+                    alt="098"
                     className="max-w-[500px] max-h-[250px] place-self-center"
                   />
 
                   <div className=" flex flex-col gap-4 p-10">
                     <p>
-                      Powerwall is a compact home battery that reduces your
-                      reliance on the grid by storing your solar energy for use
-                      when the sun isn't shining. You can add additional
-                      Powerwall units to your system to reduce your impact
-                      further and better prepare your home for power outages.
+                      {
+                        "Powerwall is a compact home battery that reduces your reliance on the grid by storing your solar energy for use when the sun isn't shining. You can add additional Powerwall units to your system to reduce your impact further and better prepare your home for power outages."
+                      }
                     </p>
                     <div className="flex flex-col gap-2">
                       <p className="font-bold text-xl">starting from</p>
@@ -155,12 +158,9 @@ function Page() {
                   <div className=" flex flex-col gap-4 p-10">
                     <h1>PowerWall & SolarRoof </h1>
                     <p>
-                      The Solar Roof features sleek glass solar tiles and robust
-                      steel roofing tiles that seamlessly blend with your home's
-                      aesthetic while generating clean and sustainable energy.
-                      The integrated Power Storage Pack ensures you have a
-                      reliable energy source day and night. Store excess energy
-                      generated during the day and use it when the sun sets.
+                      {
+                        "The Solar Roof features sleek glass solar tiles and robust steel roofing tiles that seamlessly blend with your home's aesthetic while generating clean and sustainable energy. The integrated Power Storage Pack ensures you have a reliable energy source day and night. Store excess energy generated during the day and use it when the sun sets."
+                      }
                     </p>
                     <div className="flex flex-col gap-2">
                       <p className="font-bold text-xl">starting from</p>
@@ -244,6 +244,7 @@ function Page() {
                 <div className="flex flex-row border-2 shadow-2xl rounded-lg bg-white">
                   <img
                     src="/images/solar roof.avif"
+                    alt="0293"
                     className="max-w-[500px] max-h-[250px] place-self-center"
                   />
                   <div className=" flex flex-col gap-4 p-10">
@@ -275,16 +276,13 @@ function Page() {
                   <div className=" flex flex-col gap-4 p-10">
                     <h1>PowerWall & SolarRoof </h1>
                     <p>
-                      The Solar Roof features sleek glass solar tiles and robust
-                      steel roofing tiles that seamlessly blend with your home's
-                      aesthetic while generating clean and sustainable energy.
-                      The integrated Power Storage Pack ensures you have a
-                      reliable energy source day and night. Store excess energy
-                      generated during the day and use it when the sun sets.
+                      {
+                        "The Solar Roof features sleek glass solar tiles and robust steel roofing tiles that seamlessly blend with your home's aesthetic while generating clean and sustainable energy. The integrated Power Storage Pack ensures you have a reliable energy source day and night. Store excess energy generated during the day and use it when the sun sets."
+                      }
                     </p>
                     <div className="flex flex-col gap-2">
                       <p className="font-bold text-xl">starting from</p>
-                      <p className="font-extrabold text-3xl">$399.999.99</p>
+                      <p className="font-extrabold text-3xl">{"$399.999.99"}</p>
                     </div>
                     <div className="flex flex-row gap-8">
                       <button className="flex justify-center text-center p-4 max-w-[200px] rounded-md border-2 border-black transition-transform transform hover:scale-105 hover:text-white hover:bg-black">
@@ -304,7 +302,7 @@ function Page() {
           <section id="section3">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
-              <img src="/Images/solarfarm.avif" />
+              <img src="/Images/solarfarm.avif" alt="098" />
 
               <div className="absolute inset-0 flex flex-col  justify-center container mx-auto p-10 text-white">
                 <div className="flex flex-row gap-2 justify-center items-start text-4xl px-4 font-extrabold">

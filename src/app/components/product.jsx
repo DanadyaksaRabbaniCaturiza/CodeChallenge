@@ -9,6 +9,7 @@ function ProductComponent() {
           <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-2xl border-2 max-h-[240px] max-w-[440] p-4">
             <img
               src="/images/power3.jpg"
+              alt="power3"
               className="w-[150px] h-[100px] rounded-lg"
             />
             <div className="w-[250px] h-[130px]">
@@ -36,6 +37,7 @@ function ProductComponent() {
           <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-md max-h-[240px] max-w-[440] p-4">
             <img
               src="/images/solar4.jpg"
+              alt="solar4"
               className="w-[150px] h-[100px] rounded-lg"
             />
             <div className="w-[250px] h-[130px]">
@@ -60,6 +62,7 @@ function ProductComponent() {
           <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-md max-h-[240px] max-w-[440] p-4">
             <img
               src="/images/solar5.jpg"
+              alt="solar5"
               className="w-[150px] h-[100px] rounded-lg"
             />
             <div className="w-[250px] h-[130px]">

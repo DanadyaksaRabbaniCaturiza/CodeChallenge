@@ -19,7 +19,7 @@ export default function Home() {
 
         {/* Hero Section */}
         <div className="relative w-full h-screen">
-          <img
+          <Image
             src="/images/Solar2.jpg"
             alt="Solar Background"
             className=" object-cover w-full h-full "
@@ -47,8 +47,9 @@ export default function Home() {
             <p className="flex text-center font-semibold text-[32px] max-w-[1000px] w-full">
               Solar
               <FaSun className="translate-y-3 text-yellow-300" />
-              Era's mission is to be a catalyst for positive change by offering
-              innovative solar energy solutions
+              {
+                "Era's mission is to be a catalyst for positive change by offering innovative solar energy solutions"
+              }
             </p>
           </div>
           <div className=" flex flex-row gap-20 p-4 justify-center text-center font-bold ">
@@ -87,7 +88,7 @@ export default function Home() {
           <div className="relative w-full h-full">
             <div className="absolute inset-0 bg-gradient-to-b from-white to-transparent "></div>
             <div className="absolute inset-0 bg-gradient-to-t from-slate-500 to-transparent "></div>
-            <img
+            <Image
               src="/images/Solar3.jpg"
               alt="Solar 2"
               className="w-full h-full"
@@ -104,7 +105,7 @@ export default function Home() {
                 <div className="grid grid-cols-1 gap-8 text-black">
                   <div className="flex flex-col py-8 px-5 bg-[#f4f5fc] text-black rounded-xl shadow-2xl w-max h-max max-w-[850px] max-h-[450px] ">
                     <div className="flex flex-row">
-                      <img
+                      <image
                         src="/Images/group of people.jpg"
                         className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
                       />
@@ -132,17 +133,12 @@ export default function Home() {
                           The Team at SolarEra
                         </p>
                         <p className="text-[16px]">
-                          Our team consists of skilled engineers, technicians,
-                          and renewable energy experts with extensive experience
-                          in solar power solutions and believes of making a
-                          better future of energy. Committed to innovation, we
-                          work collaboratively to design and implement
-                          cutting-edge solar technologies. Our passion for
-                          sustainability drives us to create solutions that
-                          contribute to a cleaner and greener world.
+                          {
+                            "Our team consists of skilled engineers, technicians, and renewable energy experts with extensive experience in solar power solutions and believes of making a better future of energy. Committed to innovation, we work collaboratively to design and implement cutting-edge solar technologies. Our passion for sustainability drives us to create solutions that contribute to a cleaner and greener world"
+                          }
                         </p>
                       </div>
-                      <img
+                      <Image
                         src="/Images/solarteam.avif"
                         className="w-max h-max max-w-[350px] max-h-[250px] rounded-md translate-x-10 translate-y-10"
                       />
@@ -153,7 +149,7 @@ export default function Home() {
             </div>
 
             <div>
-              <img
+              <Image
                 src="/images/power2.avif"
                 alt="Solar Power"
                 className="w-full object-fill"
