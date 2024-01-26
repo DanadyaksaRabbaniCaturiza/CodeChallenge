@@ -20,11 +20,9 @@ export default function Home() {
 
         {/* Hero Section */}
         <div className="relative w-full h-screen">
-          <Image
+          <img
             src="/images/Solar2.jpg"
             alt="Solar Background"
-            width={1000}
-            height={700}
             className="object-cover w-full h-full "
           />
 
