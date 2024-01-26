@@ -5,7 +5,6 @@ import { ImPower } from "react-icons/im";
 import { FaSun } from "react-icons/fa";
 import { TbSolarPanel2 } from "react-icons/tb";
 import { TbSolarElectricity } from "react-icons/tb";
-import Testimonials from "../components/testimonial";
 
 function Page() {
   return (
@@ -15,12 +14,12 @@ function Page() {
           <NavbarComponents />
         </div>
 
-        <div>
+        <div className="flex items-center">
           {/* Image */}
           <img
             src="/images/solar9.avif"
             alt="798"
-            className="object-top relative"
+            className="w-full h-auto object-top relative"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
 
@@ -377,8 +376,6 @@ function Page() {
               </div>
             </div>
           </section>
-
-          <Testimonials />
         </main>
         <BottomComponents />
       </div>

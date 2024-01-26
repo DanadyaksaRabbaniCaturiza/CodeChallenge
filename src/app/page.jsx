@@ -1,4 +1,3 @@
-import Image from "next/image";
 import NavbarComponents from "./components/Navbar";
 import { FaSun } from "react-icons/fa";
 import { GrUserWorker } from "react-icons/gr";
@@ -7,6 +6,7 @@ import { FaGlobe } from "react-icons/fa";
 import { BiSolidCity } from "react-icons/bi";
 import BottomComponents from "./components/Bottom";
 import ProductComponent from "./components/product";
+import Testimonials from "./components/testimonial";
 
 export default function Home() {
   return (
@@ -19,10 +19,10 @@ export default function Home() {
 
         {/* Hero Section */}
         <div className="relative w-full h-screen">
-          <Image
+          <img
             src="/images/Solar2.jpg"
             alt="Solar Background"
-            className=" object-cover w-full h-full "
+            className="object-cover  w-full h-full "
           />
 
           <div className="absolute inset-0 flex items-center justify-center text-white text-center">
@@ -88,7 +88,7 @@ export default function Home() {
           <div className="relative w-full h-full">
             <div className="absolute inset-0 bg-gradient-to-b from-white to-transparent "></div>
             <div className="absolute inset-0 bg-gradient-to-t from-slate-500 to-transparent "></div>
-            <Image
+            <img
               src="/images/Solar3.jpg"
               alt="Solar 2"
               className="w-full h-full"
@@ -106,7 +106,7 @@ export default function Home() {
                   <div className="flex flex-col py-8 px-5 bg-[#f4f5fc] text-black rounded-xl shadow-2xl w-max h-max max-w-[850px] max-h-[450px] ">
                     <div className="flex flex-row">
                       <image
-                        src="/Images/group of people.jpg"
+                        src="/images/group of people.jpg"
                         className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
                       />
                       <div className="flex flex-col p-8 justify-center border-l-2 ">
@@ -138,8 +138,8 @@ export default function Home() {
                           }
                         </p>
                       </div>
-                      <Image
-                        src="/Images/solarteam.avif"
+                      <img
+                        src="/images/solarteam.avif"
                         className="w-max h-max max-w-[350px] max-h-[250px] rounded-md translate-x-10 translate-y-10"
                       />
                     </div>
@@ -149,7 +149,7 @@ export default function Home() {
             </div>
 
             <div>
-              <Image
+              <img
                 src="/images/power2.avif"
                 alt="Solar Power"
                 className="w-full object-fill"
@@ -159,15 +159,18 @@ export default function Home() {
         </div>
 
         {/* Enhanced Product */}
-        <div className="bg-gradient-to-b from-slate-500 via-black to-slate-500 text-white p-20  pt-80">
+        <div className="flex flex-col justify-center items-center bg-gradient-to-b from-slate-500 via-black to-slate-500 text-white p-20 pt-80">
           <p className="flex flex-row text-center justify-center m-8 text-[38px] animate-bounce">
             Discover our Exciting Products
           </p>
-          <div className="bg-slate-500 p-12 rounded-xl shadow-lg transform hover:scale-105 transition duration-300 ease-in-out">
+          <div className="bg-slate-500 p-12 rounded-xl shadow-lg max-w-[1000px] w-full">
             <ProductComponent />
           </div>
         </div>
 
+        <div>
+          <Testimonials />
+        </div>
         <BottomComponents />
       </div>
     </>

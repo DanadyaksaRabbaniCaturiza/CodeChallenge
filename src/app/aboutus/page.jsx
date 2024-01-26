@@ -4,7 +4,7 @@ import { FaSun } from "react-icons/fa";
 import { SiFuturelearn } from "react-icons/si";
 import { FaLightbulb } from "react-icons/fa";
 import { TbBrandCarbon } from "react-icons/tb";
-import { FaMinus } from "react-icons/fa";
+
 import { RxStarFilled } from "react-icons/rx";
 import { IoMdHappy } from "react-icons/io";
 function Page() {
@@ -154,7 +154,7 @@ function Page() {
                 Our Commitment to Quality
               </p>
               <p className="text-[11px] max-w-[210px] max-h-[225px]">
-                Solar Era is committed to delivering top-notch, durable solar
+                Solar Era is committed to delivering topnotch, durable solar
                 solutions. We source top-tier components, adhere to industry
                 best practices, and employ rigorous quality control measures for
                 the reliability and longevity of our installations. Join us on
