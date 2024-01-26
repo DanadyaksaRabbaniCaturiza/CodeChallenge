@@ -25,6 +25,7 @@ export default function Home() {
             alt="Solar Background"
             width={1000}
             height={600}
+            priority
             className="object-cover w-full h-full "
           />
 
@@ -110,9 +111,12 @@ export default function Home() {
                 <div className="grid grid-cols-1 gap-8 text-black">
                   <div className="flex flex-col py-8 px-5 bg-[#f4f5fc] text-black rounded-xl shadow-2xl w-max h-max max-w-[850px] max-h-[450px] ">
                     <div className="flex flex-row">
-                      <image
+                      <Image
                         src="/images/group of people.jpg"
-                        className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
+                        alt="fpweko"
+                        className=" max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
+                        width={350}
+                        height={250}
                       />
                       <div className="flex flex-col p-8 justify-center border-l-2 ">
                         <p className="text-slate-500 text-[16px]">OUR STORY</p>
@@ -145,8 +149,9 @@ export default function Home() {
                       </div>
                       <Image
                         src="/images/solarteam.avif"
-                        width={626}
-                        height={417}
+                        alt="fsdljahfka"
+                        width={350}
+                        height={250}
                         className="w-max h-max max-w-[350px] max-h-[250px] rounded-md translate-x-10 translate-y-10"
                       />
                     </div>
