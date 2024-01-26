@@ -1,6 +1,6 @@
 import BottomComponents from "../components/Bottom";
 import NavbarComponents from "../components/Navbar";
-
+import Image from "next/image";
 import { ImPower } from "react-icons/im";
 import { FaSun } from "react-icons/fa";
 import { TbSolarPanel2 } from "react-icons/tb";
@@ -16,9 +16,11 @@ function Page() {
 
         <div className="flex items-center">
           {/* Image */}
-          <img
+          <Image
             src="/images/solar9.avif"
             alt="798"
+            width={2000}
+            height={1000}
             className="w-full h-auto object-top relative"
           />
           <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
@@ -43,8 +45,10 @@ function Page() {
             <div>
               <div className="relative w-full">
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
-                <img
+                <Image
                   src="/images/storage.avif"
+                  width={2880}
+                  height={1800}
                   className="object-cover w-full"
                   alt="Power Image"
                 />
@@ -126,8 +130,10 @@ function Page() {
 
               <div className="flex flex-col gap-16 p-14 bg-gradient-to-t from-[#b1d6f1] to-transparent ">
                 <div className="flex flex-row border-2 shadow-2xl rounded-lg bg-white">
-                  <img
+                  <Image
                     src="/images/solar8.jpg"
+                    width={650}
+                    height={366}
                     alt="098"
                     className="max-w-[500px] max-h-[250px] place-self-center"
                   />
@@ -186,8 +192,10 @@ function Page() {
             {/* iorutyeorthiwerug */}
 
             <div className="relative">
-              <img
+              <Image
                 src="/images/solarroof.avif"
+                width={2880}
+                height={1880}
                 className="object-cover w-full"
                 alt="Power Image"
               />
@@ -241,8 +249,10 @@ function Page() {
             <div className="relative">
               <div className="flex flex-col gap-16 p-14 bg-black">
                 <div className="flex flex-row border-2 shadow-2xl rounded-lg bg-white">
-                  <img
-                    src="/images/solar roof.avif"
+                  <Image
+                    src="/images/solarpanel.avif"
+                    width={1500}
+                    height={844}
                     alt="0293"
                     className="max-w-[500px] max-h-[250px] place-self-center"
                   />
@@ -301,7 +311,12 @@ function Page() {
           <section id="section3">
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
-              <img src="/Images/solarfarm.avif" alt="098" />
+              <Image
+                src="/Images/solarfarm.avif"
+                width={2000}
+                height={1480}
+                alt="098"
+              />
 
               <div className="absolute inset-0 flex flex-col  justify-center container mx-auto p-10 text-white">
                 <div className="flex flex-row gap-2 justify-center items-start text-4xl px-4 font-extrabold">

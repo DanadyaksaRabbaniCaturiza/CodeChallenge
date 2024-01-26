@@ -3,8 +3,7 @@ import NavbarComponents from "../components/Navbar";
 import { FaSun } from "react-icons/fa";
 import { SiFuturelearn } from "react-icons/si";
 import { FaLightbulb } from "react-icons/fa";
-import { TbBrandCarbon } from "react-icons/tb";
-
+import Image from "next/image";
 import { RxStarFilled } from "react-icons/rx";
 import { IoMdHappy } from "react-icons/io";
 function Page() {
@@ -14,8 +13,10 @@ function Page() {
         <div className="absolute w-full bg-transparent z-10 pointer-events-auto ">
           <NavbarComponents />
         </div>
-        <img
+        <Image
           src="/images/circuit.avif"
+          width={2000}
+          height={1500}
           alt="circuit"
           className=" object-cover w-full h-[350px] "
         />
@@ -35,8 +36,10 @@ function Page() {
         <div className="flex flex-col gap-12 justify-center items-center p-10">
           <div className="flex flex-col py-8 px-5 bg-[#f4f5fc] text-black rounded-xl shadow-2xl w-max h-max max-w-[850px] max-h-[450px] ">
             <div className="flex flex-row">
-              <img
+              <Image
                 src="/Images/building.jpg"
+                width={3368}
+                height={2240}
                 alt="Building"
                 className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
               />
@@ -76,8 +79,10 @@ function Page() {
 
           <div className="flex flex-col  py-8 px-5 bg-[#f4f5fc] text-black rounded-xl shadow-2xl w-max h-max max-w-[850px] max-h-[450px] ">
             <div className="flex flex-row">
-              <img
+              <Image
                 src="/Images/power10.jpg"
+                width={4600}
+                height={3070}
                 alt="power10"
                 className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
               />

@@ -20,9 +20,11 @@ export default function Home() {
 
         {/* Hero Section */}
         <div className="relative w-full h-screen">
-          <img
+          <Image
             src="/images/Solar2.jpg"
             alt="Solar Background"
+            width={1000}
+            height={600}
             className="object-cover w-full h-full "
           />
 
@@ -89,9 +91,11 @@ export default function Home() {
           <div className="relative w-full h-full">
             <div className="absolute inset-0 bg-gradient-to-b from-white to-transparent "></div>
             <div className="absolute inset-0 bg-gradient-to-t from-slate-500 to-transparent "></div>
-            <img
+            <Image
               src="/images/Solar3.jpg"
-              alt="Solar 2"
+              alt="Solar 3"
+              width={5000}
+              height={3300}
               className="w-full h-full"
             />
           </div>
@@ -139,8 +143,10 @@ export default function Home() {
                           }
                         </p>
                       </div>
-                      <img
+                      <Image
                         src="/images/solarteam.avif"
+                        width={626}
+                        height={417}
                         className="w-max h-max max-w-[350px] max-h-[250px] rounded-md translate-x-10 translate-y-10"
                       />
                     </div>
@@ -150,8 +156,10 @@ export default function Home() {
             </div>
 
             <div>
-              <img
+              <Image
                 src="/images/power2.avif"
+                width={2880}
+                height={1620}
                 alt="Solar Power"
                 className="w-full object-fill"
               />

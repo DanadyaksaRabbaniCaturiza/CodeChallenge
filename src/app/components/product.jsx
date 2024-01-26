@@ -1,4 +1,5 @@
 import { RiCustomerService2Fill } from "react-icons/ri";
+import Image from "next/image";
 
 import Link from "next/link";
 function ProductComponent() {
@@ -9,8 +10,10 @@ function ProductComponent() {
         <div className="flex justify-items-center w-full h-[170px]">
           <Link href="/product&services#section1">
             <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-2xl border-2 max-h-[240px] max-w-[440px] w-full p-4 transform hover:scale-105 transition duration-300 ease-in-out">
-              <img
+              <Image
                 src="/images/power3.jpg"
+                width={150}
+                height={100}
                 alt="power3"
                 className="w-[150px] h-[100px] rounded-lg"
               />
@@ -33,8 +36,10 @@ function ProductComponent() {
         <div className="flex justify-items-center w-full h-[170px]">
           <Link href="/product&services#section2">
             <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-2xl border-2 max-h-[240px] max-w-[440] p-4 transform hover:scale-105 transition duration-300 ease-in-out">
-              <img
+              <Image
                 src="/images/solar4.jpg"
+                width={150}
+                height={100}
                 alt="solar4"
                 className="w-[150px] h-[100px] rounded-lg"
               />
@@ -53,11 +58,13 @@ function ProductComponent() {
         </div>
 
         {/* Product 3 */}
-        <div className="flex justify-items-center  w-full h-[170px]">
+        <div className="flex justify-items-center w-full h-[170px]">
           <Link href="/product&services#section3">
             <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-2xl border-2 max-h-[240px] max-w-[440] p-4 transform hover:scale-105 transition duration-300 ease-in-out">
-              <img
+              <Image
                 src="/images/solar5.jpg"
+                width={150}
+                height={100}
                 alt="solar5"
                 className="w-[150px] h-[100px] rounded-lg"
               />
@@ -74,7 +81,7 @@ function ProductComponent() {
         </div>
 
         {/* Product 4 */}
-        <div className="flex justify-items-center max-w-full h-[170px] ">
+        <div className="flex justify-items-center w-full h-[170px] ">
           <Link href="/product&services#testimonials">
             <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-2xl border-2 max-h-[240px] max-w-[450px] w-full p-4 transform hover:scale-105 transition duration-300 ease-in-out">
               <h1 className="text-blue-500 font-bold text-8xl">

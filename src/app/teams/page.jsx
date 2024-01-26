@@ -3,6 +3,7 @@ import NavbarComponents from "../components/Navbar";
 import TeamComponent from "../components/team";
 import { FaSun } from "react-icons/fa";
 import BottomComponents from "../components/Bottom";
+import Image from "next/image";
 
 function Page() {
   const executiveTeam = [
@@ -77,8 +78,10 @@ function Page() {
         </div>
 
         <div className="relative w-full h-screen">
-          <img
+          <Image
             src="/images/group.avif"
+            width={2073}
+            height={1377}
             alt="Solar Era Team"
             className="object-cover w-full h-full absolute"
           />
