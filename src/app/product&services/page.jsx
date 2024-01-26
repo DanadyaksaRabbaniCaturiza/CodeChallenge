@@ -9,20 +9,23 @@ import { TbSolarElectricity } from "react-icons/tb";
 function Page() {
   return (
     <>
-      <div className="m-0 divContainer overflow-x-hidden font-sans">
+      <div className="m-0 font-sans">
         <div className="absolute w-full bg-transparent z-10 pointer-events-auto">
           <NavbarComponents />
         </div>
 
-        <div className="flex items-center">
+        <div className="flex justify-center items-center">
           {/* Image */}
+
           <Image
-            src="/images/solar9.avif"
+            // src="/images/solar9.avif"
+            src=""
             alt="798"
-            width={2000}
-            height={1000}
-            className="w-full h-auto object-top relative"
+            width={1000}
+            height={900}
+            className="flex place-self-center object-contain w-[2000px] relative"
           />
+
           <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
 
           <div className="absolute inset-0 flex items-center justify-center text-white text-center">
@@ -132,10 +135,10 @@ function Page() {
                 <div className="flex flex-row border-2 shadow-2xl rounded-lg bg-white">
                   <Image
                     src="/images/solar8.jpg"
-                    width={650}
-                    height={366}
+                    width={500}
+                    height={250}
                     alt="098"
-                    className="max-w-[500px] max-h-[250px] place-self-center"
+                    className="max-w-[500px] max-h-[250px] w-full h-full flex place-self-center"
                   />
 
                   <div className=" flex flex-col gap-4 p-10">

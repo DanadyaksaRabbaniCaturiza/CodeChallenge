@@ -16,7 +16,7 @@ function Page() {
         <Image
           src="/images/circuit.avif"
           width={2000}
-          height={1500}
+          height={350}
           alt="circuit"
           className=" object-cover w-full h-[350px] "
         />
@@ -38,8 +38,8 @@ function Page() {
             <div className="flex flex-row">
               <Image
                 src="/Images/building.jpg"
-                width={3368}
-                height={2240}
+                width={350}
+                height={250}
                 alt="Building"
                 className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
               />
@@ -81,8 +81,8 @@ function Page() {
             <div className="flex flex-row">
               <Image
                 src="/Images/power10.jpg"
-                width={4600}
-                height={3070}
+                width={350}
+                height={250}
                 alt="power10"
                 className="w-max h-max max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
               />
