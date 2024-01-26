@@ -1,3 +1,4 @@
+import Image from "next/image";
 import NavbarComponents from "./components/Navbar";
 import { FaSun } from "react-icons/fa";
 import { GrUserWorker } from "react-icons/gr";
@@ -19,10 +20,12 @@ export default function Home() {
 
         {/* Hero Section */}
         <div className="relative w-full h-screen">
-          <img
+          <Image
             src="/images/Solar2.jpg"
             alt="Solar Background"
-            className="object-cover  w-full h-full "
+            width={1000}
+            height={700}
+            className="object-cover w-full h-full "
           />
 
           <div className="absolute inset-0 flex items-center justify-center text-white text-center">
