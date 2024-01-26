@@ -18,12 +18,12 @@ function Page() {
           {/* Image */}
 
           <Image
-            // src="/images/solar9.avif"
-            src=""
+            src="/images/solar9.avif"
             alt="798"
             width={1000}
             height={900}
-            className="flex place-self-center object-contain w-[2000px] relative"
+            className="object-contain w-full
+             relative"
           />
 
           <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
