@@ -22,8 +22,7 @@ function Page() {
             alt="798"
             width={1000}
             height={900}
-            className="object-contain w-full
-             relative"
+            className="object-contain w-full relative"
           />
 
           <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
