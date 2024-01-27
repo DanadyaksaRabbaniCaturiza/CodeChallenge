@@ -18,7 +18,7 @@ function Page() {
           {/* Image */}
 
           <Image
-            src="/images/solar9.avif"
+            src="/solar9.avif"
             alt="798"
             width={1000}
             height={900}
@@ -48,7 +48,7 @@ function Page() {
               <div className="relative w-full">
                 <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
                 <Image
-                  src="/images/storage.avif"
+                  src="/storage.avif"
                   width={2880}
                   height={1800}
                   className="object-cover w-full"
@@ -133,7 +133,7 @@ function Page() {
               <div className="flex flex-col gap-16 p-14 bg-gradient-to-t from-[#b1d6f1] to-transparent ">
                 <div className="flex flex-row border-2 shadow-2xl rounded-lg bg-white">
                   <Image
-                    src="/images/solar8.jpg"
+                    src="/solar8.jpg"
                     width={500}
                     height={250}
                     alt="098"
@@ -195,7 +195,7 @@ function Page() {
 
             <div className="relative">
               <Image
-                src="/images/solarroof.avif"
+                src="/solarroof.avif"
                 width={2880}
                 height={1880}
                 className="object-cover w-full"
@@ -252,7 +252,7 @@ function Page() {
               <div className="flex flex-col gap-16 p-14 bg-black">
                 <div className="flex flex-row border-2 shadow-2xl rounded-lg bg-white">
                   <Image
-                    src="/images/solarpanel.avif"
+                    src="/solarpanel.avif"
                     width={1500}
                     height={844}
                     alt="0293"
@@ -314,7 +314,7 @@ function Page() {
             <div className="relative">
               <div className="absolute inset-0 bg-gradient-to-b from-black to-transparent"></div>
               <Image
-                src="/Images/solarfarm.avif"
+                src="/solarfarm.avif"
                 width={2000}
                 height={1480}
                 alt="098"

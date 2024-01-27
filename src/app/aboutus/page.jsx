@@ -14,7 +14,7 @@ function Page() {
           <NavbarComponents />
         </div>
         <Image
-          src="/images/circuit.avif"
+          src="/circuit.avif"
           width={2000}
           height={350}
           alt="circuit"
@@ -37,7 +37,7 @@ function Page() {
           <div className="flex flex-col py-8 px-5 bg-[#f4f5fc] text-black rounded-xl shadow-2xl w-max h-max max-w-[850px] max-h-[450px] ">
             <div className="flex flex-row">
               <Image
-                src="/Images/building.jpg"
+                src="/building.jpg"
                 width={350}
                 height={250}
                 alt="Building"
@@ -80,7 +80,7 @@ function Page() {
           <div className="flex flex-col  py-8 px-5 bg-[#f4f5fc] text-black rounded-xl shadow-2xl w-max h-max max-w-[850px] max-h-[450px] ">
             <div className="flex flex-row">
               <Image
-                src="/Images/power10.jpg"
+                src="/power10.jpg"
                 width={350}
                 height={250}
                 alt="power10"

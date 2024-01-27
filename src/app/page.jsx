@@ -21,7 +21,7 @@ export default function Home() {
         {/* Hero Section */}
         <div className="relative w-full h-screen">
           <Image
-            src="/images/Solar2.jpg"
+            src="/Solar2.jpg"
             alt="Solar Background"
             width={1000}
             height={600}
@@ -93,7 +93,7 @@ export default function Home() {
             <div className="absolute inset-0 bg-gradient-to-b from-white to-transparent "></div>
             <div className="absolute inset-0 bg-gradient-to-t from-slate-500 to-transparent "></div>
             <Image
-              src="/images/Solar3.jpg"
+              src="/Solar3.jpg"
               alt="Solar 3"
               width={5000}
               height={3300}
@@ -112,7 +112,7 @@ export default function Home() {
                   <div className="flex flex-col py-8 px-5 bg-[#f4f5fc] text-black rounded-xl shadow-2xl w-max h-max max-w-[850px] max-h-[450px] ">
                     <div className="flex flex-row">
                       <Image
-                        src="/images/group of people.jpg"
+                        src="/group of people.jpg"
                         alt="fpweko"
                         className=" max-w-[350px] max-h-[250px] rounded-md -translate-x-10"
                         width={350}
@@ -148,7 +148,7 @@ export default function Home() {
                         </p>
                       </div>
                       <Image
-                        src="/images/solarteam.avif"
+                        src="/solarteam.avif"
                         alt="fsdljahfka"
                         width={350}
                         height={250}
@@ -162,7 +162,7 @@ export default function Home() {
 
             <div>
               <Image
-                src="/images/power2.avif"
+                src="/power2.avif"
                 width={2880}
                 height={1620}
                 alt="Solar Power"

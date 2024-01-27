@@ -2,7 +2,7 @@ function Testimonials() {
   const testimonialsData = [
     {
       id: 1,
-      img: "/images/john doe.jpg",
+      img: "/john doe.jpg",
       name: "John Doe",
       occupation: "Business Owner",
       comment:
@@ -10,7 +10,7 @@ function Testimonials() {
     },
     {
       id: 2,
-      img: "/images/jane smith.jpg",
+      img: "/jane smith.jpg",
       name: "Jane Smith",
       occupation: "Homeowner",
       comment:
@@ -18,7 +18,7 @@ function Testimonials() {
     },
     {
       id: 3,
-      img: "/images/david johnson.jpg",
+      img: "/david johnson.jpg",
       name: "David Johnson",
       occupation: "Environmental Advocate",
       comment:
@@ -26,7 +26,7 @@ function Testimonials() {
     },
     {
       id: 4,
-      img: "/images/emily brown.jpg",
+      img: "/emily brown.jpg",
       name: "Emily Brown",
       occupation: "Community Leader",
       comment:

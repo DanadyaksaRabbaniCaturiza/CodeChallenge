@@ -11,7 +11,7 @@ function ProductComponent() {
           <Link href="/product&services#section1">
             <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-2xl border-2 max-h-[240px] max-w-[440px] w-full p-4 transform hover:scale-105 transition duration-300 ease-in-out">
               <Image
-                src="/images/power3.jpg"
+                src="/power3.jpg"
                 width={150}
                 height={100}
                 alt="power3"
@@ -37,7 +37,7 @@ function ProductComponent() {
           <Link href="/product&services#section2">
             <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-2xl border-2 max-h-[240px] max-w-[440] p-4 transform hover:scale-105 transition duration-300 ease-in-out">
               <Image
-                src="/images/solar4.jpg"
+                src="/solar4.jpg"
                 width={150}
                 height={100}
                 alt="solar4"
@@ -62,7 +62,7 @@ function ProductComponent() {
           <Link href="/product&services#section3">
             <div className="flex flex-row gap-6 items-center bg-white rounded-lg shadow-2xl border-2 max-h-[240px] max-w-[440] p-4 transform hover:scale-105 transition duration-300 ease-in-out">
               <Image
-                src="/images/solar5.jpg"
+                src="/solar5.jpg"
                 width={150}
                 height={100}
                 alt="solar5"

@@ -11,19 +11,19 @@ function Page() {
       name: "Roman Johnson",
       role: "CEO",
       bio: "Visionary leader with a passion for sustainable energy.",
-      image: "/images/ceo.avif",
+      image: "/ceo.avif",
     },
     {
       name: "Jane White",
       role: "CFO",
       bio: "Financial strategist ensuring fiscal responsibility.",
-      image: "/images/cfo.jpeg",
+      image: "/cfo.jpeg",
     },
     {
       name: "James Abraham",
       role: "CTO",
       bio: " Details on the technology and engineering leadership.",
-      image: "/images/cto.jpg",
+      image: "/cto.jpg",
     },
   ];
 
@@ -32,19 +32,19 @@ function Page() {
       name: "Sam Archer",
       role: "Operations Manager",
       bio: "Overseeing day-to-day operations for efficiency.",
-      image: "/images/operations.avif",
+      image: "/operations.avif",
     },
     {
       name: "Emily Kormack",
       role: "Project Manager",
       bio: "Managing and coordinating various energy projects.",
-      image: "/images/projects.avif",
+      image: "/projects.avif",
     },
     {
       name: "Finn Fielder",
       role: "Field Engineers",
       bio: " Information about engineers working on-site for implementation.",
-      image: "/images/field.jpg",
+      image: "/field.jpg",
     },
   ];
 
@@ -53,19 +53,19 @@ function Page() {
       name: "Alex Hex",
       role: "Renewable Energy Specialist",
       bio: "Expert in the latest renewable energy technologies.",
-      image: "/images/tech.jpg",
+      image: "/tech.jpg",
     },
     {
       name: "Christoher Lee",
       role: "Electrical Engineer",
       bio: "Focused on optimizing electrical systems for efficiency.",
-      image: "/images/engineer.jpg",
+      image: "/engineer.jpg",
     },
     {
       name: "Thomas",
       role: "Mechanical Engineers",
       bio: " Information about those focusing on mechanical systems.",
-      image: "/images/mechanical.jpg",
+      image: "/mechanical.jpg",
     },
   ];
 
@@ -79,7 +79,7 @@ function Page() {
 
         <div className="relative w-full h-screen">
           <Image
-            src="/images/group.avif"
+            src="/group.avif"
             width={2073}
             height={1377}
             alt="Solar Era Team"
